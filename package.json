@@ -1,0 +1,30 @@
+{
+  "name": "sopa",
+  "version": "1.0.0",
+  "description": "apenas um show",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=sopa node index.js"
+  },
+  "keywords": [
+    "sopa"
+  ],
+  "author": "Thiago Lagden",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "pify": "^2.3.0",
+    "soap": "^0.17.0"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "envs": [
+      "es6",
+      "node"
+    ],
+    "esnext": true
+  }
+}
